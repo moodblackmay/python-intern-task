@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div>
+        <form method="post">
+            {% csrf_token %}
+            <input type="text" name="company_guid" placeholder="company guid">
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    {% if msg %}
+        <p> {{ msg }}</p>
+    {% endif %}
+</body>
+</html>
