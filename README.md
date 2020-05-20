@@ -1,10 +1,12 @@
 Установка:
-1. docker-compose up
-2. docker-compose down
-3. docker-compose run web python manage.py migrate
-4. docker-compose up
-5. перейдите по http://0.0.0.0:8000/
-6. вставьте guid компании в форму.
+1. git clone https://github.com/moodblackmay/python-intern-task.git
+2. cd python-intern-task/
+3. docker-compose up
+4. Ctrl+C
+5. docker-compose run web python manage.py migrate
+6. docker-compose up
+7. перейдите по http://0.0.0.0:8000/
+8. вставьте guid компании в форму.
 
 
 Например:
